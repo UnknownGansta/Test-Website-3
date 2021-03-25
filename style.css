@@ -93,6 +93,7 @@
     margin-top: 25px;
     margin-bottom: 10px;
 }
-.copyright{
-    font-size: x-small;
+.footer-span{
+    font-size: small;
+    color: white;
 }

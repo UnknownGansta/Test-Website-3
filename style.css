@@ -1,12 +1,17 @@
-
+body{
+    width: auto;
+}
+.shivam{
+    margin-top: 40px;
+}
 #col-header-description{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .header{
     background-image:url(https://pbs.twimg.com/profile_banners/1108987049548247041/1601636134/1500x500);
     background-size: cover;
     background-attachment: fixed;
-    height: 90vh;
+    height: 650px;
 }
 #h1-header{
     color: rgb(3, 59, 3);
@@ -34,7 +39,7 @@
 }
 #img-about{
     margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
     border-radius: 2%;
 }
 .img-carousel{

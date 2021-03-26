@@ -14,6 +14,10 @@
     }
     .img-carousel{
         min-height: 370px;
+        max-height: 370px;
+    }
+    #h1-carousel{
+        left: 900px;
     }
     .img-features{
         transform: scale(0.90);
@@ -23,10 +27,7 @@
         font-size: 20px;
     }
     .img-contact{
-        transform: scale(0.75);
-        margin-left: 20%;
-        margin-bottom: -19px;
-        margin-top: -29px;
+        display: none;
     }
 }
 @media (min-width:575.99px) and (max-width: 767.98px) {
@@ -38,30 +39,33 @@
     #col-header-description{
         margin-top: 20px
     }
-    .img-features{
-        transform: scale(0.90);
-        margin: -20px;
+    .img-carousel{
+        min-height: 400px;
+        max-height: 400px;
     }
-    .img-contact{
-        transform: scale(0.75);
-        margin-left: 20%;
-        margin-bottom: -19px;
-        margin-top: -29px;
+    .img-features{
+        transform: scale(0.85);
+        margin: -25px;
+    }
+    .img-contact{display: none;
     }
 }
 @media (min-width:767.99px) and (max-width: 991.98px) {
     .shivam{
-        transform: scale(1.25);
+        transform: scale(0.95);
         width: 350px;
-        margin-left: 70px;
+        margin-left: 77px;
     }
     #col-header-description{
-        margin-left: 20%;
         margin-top: 20px
     }
+    .img-carousel{
+        min-height: 400px;
+        max-height: 400px;
+    }
     .img-features{
-        transform: scale(1.4);
-        margin-top: 125px;
+        transform: scale(1.25);
+        margin-top: 43%;
         margin-left: -10px;
     }
     .img-contact{
@@ -70,5 +74,21 @@
     }
     #contact{
         margin-bottom: 10px;
+    }
+    #h1-carousel{
+        left: 80%;
+        bottom: 7%;
+
+    }
+}
+@media (min-width:991.99px) and (max-width: 1199.98px) { 
+    .shivam{
+        transform: scale(1.2);
+        margin-top: 5%;
+    }
+    #col-header-description{
+        transform: scale(1.2);
+        margin-top: -20%;
+        margin-left: 350px;
     }
 }

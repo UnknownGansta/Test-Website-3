@@ -33,7 +33,9 @@
     width: 80px;
 }
 #img-about{
-    margin-bottom: 100px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 2%;
 }
 .img-carousel{
     min-height: 500px;
@@ -43,7 +45,7 @@
 }
 .img-features{
     
-    max-height: 440px;
+    max-height: 450px;
     border: 2px solid aqua;
     border-radius: 10px;
 }

@@ -16,26 +16,26 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark" style="position: fixed; width: 100%; background-color: black; z-index: 3000;">
   <div class="container-fluid">
-    <a class="navbar-brand mr-4" href="index.html">Shivam</a>
+    <a class="navbar-brand" href="#home">Shivam</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
+          <a class="nav-link" href="#About">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
+          <a class="nav-link" href="#whoami">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#features">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact form</a>
+          <a class="nav-link" href="#contact">Contact form</a>
         </li>
         
     </div>
@@ -44,7 +44,7 @@
 
 <!-- Navbar ends -->
 <!-- Begining of Header -->
-    <section class="header">
+    <section class="header" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mt-5">
@@ -66,25 +66,25 @@
 <section class="about" id="About">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 mt-5">
                 <h1 class=" mt-2 mb-3" style="color: white;"> About us</h1>
-                <div class="ml-4" id="line-small"></div>
-                <p class="mt-3">My name is Shivam Sharma <b>CEO of Shivam Enterprise</b></p>
+                <div id="line-small"></div>
+                <h5 class="mt-3">My name is Shivam Sharma <b>CEO of <i>Shivam Enterprise</i></b></h5>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-5 mb-5">
+                <div class="col mb-5">
                   <a href="3.html"><img  class="img-fluid" src="https://s.clipartkey.com/mpngs/s/90-909782_corrupt-ceo-sketsa-donald-trump.png" id="img-about"></a>
                 </div>
                 <div class="col mt-4">
                     <h1> What is the aim of this website? <br></h1>
-                    <div class="ml-4" id="line-small"></div>
+                    <div id="line-small"></div>
                     <p class="mt-3 mb-4">WhoTF cares bro..I am still gonna copy a sample para ..So there you have it, the purpose of a website is to turn visitors into prospects. And the way to do this is to identify the major user types visiting your site, speak to their needs and give them a clear action step to take next.
                         </p>
                         <h1> Who am I?</h1>
-                        <div class="ml-4" id="line-small"></div>
-                        <p class="mt-3"> yeh baat me khudko peechle 18 saal se poonch rha hu..pta chlne pe btata hu!</p>
+                        <div id="line-small"></div>
+                        <p id="whoami" class="mt-3"> yeh baat me khudko peechle 18 saal se poonch rha hu..pta chlne pe btata hu!</p>
                 </div>
             </div>
         </div>
@@ -138,15 +138,15 @@
 <section class="features" id="features">
   <div class="container-fluid p-5">
     <div class="row">
-      <div class="col-md-3 mb-5">
+      <div class="col-md-3 mt-5">
         <a href="3.html"><img src="https://scontent.frdp2-1.fna.fbcdn.net/v/t1.0-9/124966128_784034812176098_7273113264781228044_o.jpg?_nc_cat=102&ccb=1-3&_nc_sid=174925&_nc_ohc=OgoWgdwi4BIAX9iBodj&_nc_ht=scontent.frdp2-1.fna&oh=a6399b84abaee8652219155a3eb1469d&oe=607F6B4D" class="img-fluid img-features"></a>
       </div>
-      <div class="col-9">
-        <h3 class="mb-4" id="text-features">1. Hello This is Shivam Sharma</h3>
+      <div class="col-sm mt-5">
+        <h3 class="mb-4" id="text-features">1. Hello This is Shivam Sharma.</h3>
         <h3 class="mb-4" id="text-features">2. I am just trynna learn Webdeveloping.</h3>
-        <h3 class="mb-4" id="text-features"> 3. So a little support would mean a lot</h3>
-        <h3 class="mb-4" id="text-features">4. Thanks for visiting my page</h3>
-        <h3 class="mb-4" id="text-features"> 5. Have a good day</h3>
+        <h3 class="mb-4" id="text-features"> 3. So a little support would mean a lot.</h3>
+        <h3 class="mb-4" id="text-features">4. Thanks for visiting my page.</h3>
+        <h3 class="mb-4" id="text-features"> 5. Have a good day.</h3>
       </div>
     </div>
   </div>
@@ -162,7 +162,7 @@
       <div class="col-8">
         <form method="POST">
           
-          <div class="mt-4 mb-">
+          <div class="mt-5 mb-2">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
@@ -183,12 +183,12 @@
           </div>
           
           <div class="col-12 mb-4">
-            <button type="submit" class="btn btn-outline-light"><a href="2.html"> Submit</a></button>
+            <button type="submit" class="btn btn-outline-light"><a href="2.html" style="color: black;"> Submit</a></button>
           </div>
         </form>
       </div>
         
-      <div class="col-md-3 m-4">
+      <div class="col-md-3 mt-5">
         <a href="3.html"><img src="https://lh3.googleusercontent.com/pw/ACtC-3d7pB7RUkQeyMGXN9OiJXUIsgH3B7WN8dj9ehGI39t3dByCqH0gamgu_xFcOWIMxecXuoCf8dLvzezoRX8lFg2jjsA4-x9RAC9bbf_emQ-H3hHRWkgtR2B2n9Ixcu_BcHv2FOH35SKiyrjpChqi5qBOPw=w464-h695-no?authuser=0" class="img-fluid img-contact"></a>
       </div>
     </div>
@@ -245,5 +245,7 @@
     <script src="https://kit.fontawesome.com/96ab435ab5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
   </body>
 </html>

@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 nav{
     box-shadow: 0px 2px 2px 0px aqua;
 }
@@ -34,9 +36,10 @@ nav{
     color: white;
 }
 #line-small{
-    height: 5px;
+    height: 3px;
     background-color: aqua;
     width: 80px;
+    margin-left: 5px;
 }
 #img-about{
     margin-top: 25px;
@@ -50,7 +53,7 @@ nav{
     max-width: auto;
 }
 .img-features{
-    
+    margin-top: -20px;
     max-height: 450px;
     border: 2px solid aqua;
     border-radius: 10px;
@@ -104,4 +107,7 @@ nav{
 .footer-span{
     font-size: small;
     color: white;
+}
+.actives{
+    border-bottom: 2px solid red;
 }

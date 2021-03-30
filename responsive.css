@@ -1,7 +1,7 @@
 @media (max-width: 575.98px) {
     .shivam{
         transform: scale(0.95);
-        width: 350px;
+        width: 370px;
         margin-left: 55px;
     }
     #col-header-description{
@@ -21,10 +21,10 @@
     }
     .img-features{
         transform: scale(0.90);
-        margin: -20px;
+        margin-top: -29px;
     }
     #text-features{
-        font-size: 20px;
+        font-size: 25px;
     }
     .img-contact{
         display: none;

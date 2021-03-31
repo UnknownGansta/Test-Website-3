@@ -7,7 +7,7 @@ $(window).scroll(function() {
 })
 
 //smooth-scroll
-$('.nav-item').click(function() {
+$('.nav-link .btn-ghost').click(function() {
     if (
         location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
         location.hostname == this.hostname

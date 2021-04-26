@@ -105,6 +105,7 @@ nav {
 }
 
 .counter-section {
+    margin: 20px;
     background-image: url(https://coolbackgrounds.io/images/backgrounds/black/black-triangle-b9cb7263.jpg);
     background-size: cover;
     background-attachment: fixed;
